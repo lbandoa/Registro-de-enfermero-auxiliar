@@ -1,0 +1,33 @@
+cuerpo {
+  pantalla : flex;
+  justificar-contenido : centro;
+  alinear-elementos : centro;
+  flex-direction : columna;
+}
+
+
+cuerpo {
+  altura :  100 vh ;
+  fondo : humo blanco;
+  familia de fuentes : fuente;
+  desbordamiento : oculto;
+}
+. contenedor {
+  ancho :  800 px ;
+  altura :  400 px ;
+  fondo : gris;
+  posición : relativa;
+  pantalla : cuadrícula;
+  plantilla de cuadrícula :  100 %  /  100 %  100 % ;
+  caja-sombra :  2 px  2 px  10 px  0  rgba ( # 333 ,  0.2 );
+}
+
+. botón {
+  posición : absoluta;
+  fondo : naranja;
+  ancho :  50 % ;
+  altura :  100 % ;
+  transición :  0,5 s toda facilidad;
+  transformar :  translateX ( 100 % );
+  índice z :  4 ;
+  }
